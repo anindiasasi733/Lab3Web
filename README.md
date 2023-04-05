@@ -10,8 +10,8 @@
 
 ## Langkah-langkah Praktikum
 ### Persiapan
-Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server
-menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.<p>
+Untuk mulai membuat aplikasi CRUD sederhana, yang Anda butuhkan hanyalah server database
+Gunakan MySQL. Pastikan server MySQL dapat dijalankan melalui XAMPP.<p>
 ### Menjalankan MySQL Server
 Untuk menjalankan MySQL Server dari menu XAMPP Contol.<p>
 ![Gambar 1](Gambar/1.png)
@@ -101,7 +101,7 @@ $row['nama'];?>"></td>
 </body>
 </html>
 ```
-![Gambar 9](Gambar/ss1.png)
+
 ### Menambah Data (Create)
 Buat file baru dengan nama tambah.php<p>
 ```
@@ -186,7 +186,9 @@ data">
 </body>
 </html>
 ```
-![Gambar 10](Gambar/ss2.png)
+![Gambar 9](Gambar/ss1.png)
+  
+
 ### Mengubah Data (Update)
 Buat file baru dengan nama ubah.php<p>
 ```
@@ -293,7 +295,9 @@ $data['id_barang'];?>" />
 </body>
 </html>
 ```
-![Gambar 11](Gambar/ss.png)
+![Gambar 10](Gambar/ss2.png)
+
+
 ### Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php<p>
 ```
@@ -305,5 +309,8 @@ $result = mysqli_query($conn, $sql);
 header('location: index.php');
 ?>
 ```
-### Terimakasih
+Dan Hasilnya Seperti Ini 
+![Gambar 11](Gambar/ss.png)
+
+### Terima Kasih
 
